@@ -28,25 +28,26 @@ O sistema simula cenários **isolados** e **back-to-back**, gera gráficos dinâ
 
 ## 🧠 Modelo Matemático Utilizado
 
-### Capacitância equivalente  
+## Capacitância equivalente
 $$
 C = \frac{1}{\omega X}
 $$
 
-### Indutância equivalente para energização isolada  
-\[
+## Indutância equivalente para energização isolada
+$$
 L_{eq} = L_{curto} + L_{banco}
-\]
+$$
 
-### Frequência transitória  
-\[
+## Frequência transitória
+$$
 f_{osc} = \frac{\omega}{2\pi}
-\]
+$$
 
-### Corrente de pico inicial  
-\[
+## Corrente de pico inicial
+$$
 i_{pico} = F_C \cdot \frac{V\sqrt{2}}{L_{eq}\,\omega}
-\]
+$$
+
 
 ---
 
