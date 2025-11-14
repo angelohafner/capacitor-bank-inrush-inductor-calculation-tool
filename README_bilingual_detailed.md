@@ -29,9 +29,9 @@ O sistema simula cenários **isolados** e **back-to-back**, gera gráficos dinâ
 ## 🧠 Modelo Matemático Utilizado
 
 ### Capacitância equivalente  
-\[
+$$
 C = \frac{1}{\omega X}
-\]
+$$
 
 ### Indutância equivalente para energização isolada  
 \[
