@@ -1,0 +1,5 @@
+pip freeze > requirements.txt
+
+gcloud builds submit --tag gcr.io/apps-dax-energy/st-capacitor-bank-inrush-inductor-calculation-tool  --project=apps-dax-energy
+
+gcloud run deploy --image gcr.io/apps-dax-energy/st-capacitor-bank-inrush-inductor-calculation-tool --platform managed  --project=apps-dax-energy --allow-unauthenticated
